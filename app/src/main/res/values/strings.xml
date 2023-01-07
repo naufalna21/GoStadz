@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">GoStadzFix</string>
     <string name="GoSTADZ"><u>GoSTADZ</u></string>
+    <string-array name="Provinsi">
+        <item>Jawa Timur</item>
+        <item>Jawa Tengah</item>
+    </string-array>
+    <string-array name="Kabupaten_Kota">
+        <item>Surabaya</item>
+        <item>Lamongan</item>
+    </string-array>
+    <string-array name="Kecamatan">
+        <item>Karang Pilang</item>
+        <item>Jambangan</item>
+    </string-array>
 </resources>

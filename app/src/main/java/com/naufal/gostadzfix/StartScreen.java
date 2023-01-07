@@ -12,7 +12,7 @@ public class StartScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.startscreen);
+        setContentView(R.layout.start_screen);
         b_useemail = findViewById(R.id.useemail);
         b_useemail.setOnClickListener(new View.OnClickListener() {
             @Override
