@@ -1,14 +1,16 @@
-package com.naufal.gostadzfix;
+package com.naufal.gostadzfix.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class HomeScreen extends AppCompatActivity {
+import com.naufal.gostadzfix.R;
+
+public class HomeScreenJamaah extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home_screen);
+        setContentView(R.layout.home_screen_jamaah);
     }
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginScreen"
+    tools:context=".ui.LoginScreen"
     android:background="@drawable/gradient_background"
     >
 
@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editemail"
         android:paddingLeft="10dp"
         android:layout_width="311.42dp"
         android:layout_height="35.17dp"
@@ -71,10 +71,10 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editemail" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editpassword"
         android:paddingLeft="10dp"
         android:layout_width="311.42dp"
         android:layout_height="35.17dp"
@@ -95,10 +95,10 @@
         android:textColor="@color/black"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/editpassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonlogin"
         android:layout_width="246.89dp"
         android:layout_height="40.58dp"
         android:layout_marginTop="20dp"
@@ -124,7 +124,7 @@
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonlogin" />
 
 
     <LinearLayout

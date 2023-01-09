@@ -13,28 +13,35 @@
         android:theme="@style/Theme.GoStadzFix"
         tools:targetApi="31">
         <activity
-            android:name=".HomeScreen"
+            android:name=".ui.HomeScreenJamaah"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".RegistrasiScreen"
+            android:name=".ui.HomeScreen"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".LoginScreen"
+            android:name=".ui.RegistrasiScreen"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".StartScreen"
+            android:name=".ui.LoginScreen"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.StartScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

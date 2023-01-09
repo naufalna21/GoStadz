@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "297402358070",
+    "project_id": "gostadzfix",
+    "storage_bucket": "gostadzfix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297402358070:android:d2e8df971e61a3b1697b97",
+        "android_client_info": {
+          "package_name": "com.naufal.gostadzfix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297402358070-lelbfumu2fe4mahug97s397ncl11p81s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw6qS-UCP12UysGWJAORav0TuASqxrrME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297402358070-lelbfumu2fe4mahug97s397ncl11p81s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeScreenJamaah"
+    android:background="@drawable/gradient_background">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconbackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="94dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/circle_green"
+        android:paddingLeft="10dp"
+        android:paddingTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="73.86dp"
+            android:layout_height="68.57dp"
+            android:src="@drawable/iconuser" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="272dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/gradient_background_name"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout5"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="85dp"
+            android:text="AKUN JAMAAH"
+            android:textSize="14sp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppins_medium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingLeft="30dp"
+            android:text="Naufal Nabbih Al Shiddiq"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/gradient_mainmenu_jamaah"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="17dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:fontFamily="@font/poppins_extrabold"
+            android:text="Main Menu"
+            android:textColor="@color/green"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="364dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/gradient_background_customer"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="101dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/iconustadz" />
+
+            <LinearLayout
+                android:layout_width="223dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="196dp"
+                    android:layout_height="52dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="Order Ustadz Pengajian"
+                    android:textColor="#1F9F2B"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="223dp"
+                    android:layout_height="55dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="Pesan ustadz untuk memenuhi kebutuhan ibadahmu"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins_extrabold"
+            android:text="Or"
+            android:textColor="@color/green"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="364dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/gradient_background_customer"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="101dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/iconvideo" />
+
+            <LinearLayout
+                android:layout_width="223dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="196dp"
+                    android:layout_height="52dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="Video Ceramah dan Pengajian"
+                    android:textColor="#1F9F2B"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="223dp"
+                    android:layout_height="55dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="Tonton video untuk meningkatkan keimananmu"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="71dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="GoSTADZ"
+        android:textColor="@color/green"
+        android:textSize="57sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81.07dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_white"
+        android:paddingTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:src="@drawable/iconhome"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_white"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/iconorder"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_chat"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
