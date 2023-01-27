@@ -36,7 +36,7 @@ public class LoginScreen extends AppCompatActivity {
             if (e_email.getText().length() > 0 && e_password.getText().length() > 0) {
                 login(e_email.getText().toString(), e_password.getText().toString());
             } else {
-                Toast.makeText(getApplicationContext(), "Silakan isi semua data dengan benar ", Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(),"Silakan Masukkkan Email dan Password Anda dengan Benar",Toast.LENGTH_SHORT).show();
             }
         });
         t_registrasi.setOnClickListener(new View.OnClickListener() {
@@ -62,10 +62,9 @@ public class LoginScreen extends AppCompatActivity {
             public void success(boolean success) {
                 MoveActivity.toHomeScreen(getApplicationContext());
             }
-
             @Override
             public void error(Throwable err) {
-                Toast.makeText(getApplicationContext(), err.getMessage(), Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(), err.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }

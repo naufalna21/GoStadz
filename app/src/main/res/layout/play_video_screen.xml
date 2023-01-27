@@ -6,4 +6,82 @@
     android:layout_height="match_parent"
     tools:context=".ui.PlayVideoScreen">
 
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:background="@drawable/gradient_mainmenu_jamaah"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="5dp"
+            android:background="@drawable/rounded_white_12dp"
+            >
+            <TextView
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Judul Video"
+                android:textColor="@color/green"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perbaiki Sholatmu Agar Allah Memperbaiki Hidupmu"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="5dp"
+            android:background="@drawable/rounded_white_12dp"
+            >
+            <TextView
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi Video"
+                android:textColor="@color/green"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Di mana pun anda berada, Anda diwajibkan secara hukum untuk mematuhi Childern’s Online Privacy Protection Act (COPPA) atau peraturan lainnya. "
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,11 +9,11 @@
     >
 
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="10dp"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -34,7 +34,6 @@
             android:src="@drawable/iconmasjid" />
 
     </LinearLayout>
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -51,10 +50,10 @@
     <EditText
         android:id="@+id/editemail"
         android:paddingLeft="10dp"
-        android:layout_width="311.42dp"
+        android:layout_width="match_parent"
         android:layout_height="35.17dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:background="@drawable/rounded_stroke"
         android:hint="Email"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,12 +73,14 @@
         app:layout_constraintTop_toBottomOf="@+id/editemail" />
 
     <EditText
+        android:inputType="textPassword"
         android:id="@+id/editpassword"
         android:paddingLeft="10dp"
-        android:layout_width="311.42dp"
+        android:layout_width="match_parent"
         android:layout_height="35.17dp"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
         android:background="@drawable/rounded_stroke"
         android:hint="Password"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,10 +100,11 @@
 
     <Button
         android:id="@+id/buttonlogin"
-        android:layout_width="246.89dp"
+        android:layout_width="match_parent"
         android:layout_height="40.58dp"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="82dp"
+        android:layout_marginEnd="70dp"
         android:background="@color/greenbutton"
         android:fontFamily="@font/poppins_semibold"
         android:text="Login"
@@ -113,10 +115,11 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="303dp"
+        android:layout_width="match_parent"
         android:layout_height="44dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="25dp"
-        android:layout_marginEnd="54dp"
+        android:layout_marginEnd="50dp"
         android:background="@drawable/rounded_facebook"
         android:drawableLeft="@drawable/iconfacebook"
         android:fontFamily="@font/poppins"
@@ -125,13 +128,11 @@
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonlogin" />
-
-
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2">
